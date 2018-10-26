@@ -16,6 +16,9 @@ nav a { /* links within "nav" container */
     color: white;            /* by default, links are blue */
 }
 
+hr {
+    width: 50%;
+}
 
 nav a:hover {
     border-bottom: 2px orange solid;
@@ -35,11 +38,6 @@ footer {
     clear: left;
     font-size: small;
     color: orange;
-}
-
-footer img {
-    max-width: 100px; 
-    max-height: 100px;
 }
 
 table {
