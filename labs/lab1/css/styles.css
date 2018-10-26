@@ -7,7 +7,6 @@ header, main, nav, footer {
     text-align: center;
 }
 
-
 nav a { /* links within "nav" container */
     padding: 15px;
     padding-bottom: 4px;
@@ -32,6 +31,7 @@ nav a:hover {
 
 #welcomeText {
     text-align: left;
+    width: 200px;
 }
 
 footer {
