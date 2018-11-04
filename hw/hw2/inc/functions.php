@@ -12,6 +12,8 @@ function main() {
 function randomCourse() {
     $randomValue = rand(0,10);
     $name = getCourseName($randomValue);
+    
+    $arrName = array();
     $arrName = str_split($name);
     echo "<span id=randomName>";
     for ($i=0; $i<count($arrName); $i++) {
