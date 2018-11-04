@@ -1,0 +1,74 @@
+h1 {
+    font-size: 3em;
+    margin-bottom: 0px;
+}
+
+body {
+    background-color: #c6c2c2;
+    color: black;
+}
+
+header, footer {
+    text-align: center;
+    margin: 0 auto;
+    width: 800px;
+}
+
+#content {
+    text-align: center;
+    margin: 0 auto;
+    width: 960px;
+}
+
+
+hr {
+    width: 70%;
+}
+
+footer {
+    clear: right;
+    font-size: small;
+    color: white;
+}
+
+#day {
+    font-size: 2em;
+    color: white;
+}
+
+.odd {
+    font-size: 2em;
+    color: blue;
+}
+
+.even {
+    font-size: 2em;
+    color: red;
+}
+
+table {
+    border: 1px solid black;
+}
+
+th {
+    border: 2px solid black;
+}
+
+td {
+    border: 3px solid black;
+}
+
+#cName {
+    color: orange;
+    font-weight: bold;
+}
+
+#cDes {
+    color: green;
+    font-weight: bold;
+}
+
+#status {
+    color: brown;
+    font-weight: bold;
+}
