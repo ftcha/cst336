@@ -20,8 +20,8 @@ function randomCourse() {
         } else {
             echo "<span class=even>".$arrName[$i]."</span>";
         }
-    echo "</span>";
     }
+    echo "</span>";
     echo "<br />";
     echo getCourseDescription($randomValue);
     
