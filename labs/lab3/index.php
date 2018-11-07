@@ -11,12 +11,10 @@
             $backgroundImage = $imageURLs[array_rand($imageURLs)];
         } 
     }
-    
-    
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title> Image Carousel </title>
         <meta charset="utf-8">
