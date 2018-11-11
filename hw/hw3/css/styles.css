@@ -1,0 +1,115 @@
+h1 {
+    font-size: 3em;
+    margin-bottom: 0px;
+}
+
+body {
+    background-color: #c6c2c2;
+    color: black;
+}
+
+header, footer, form, #imageContainer, #nameOfImage, #error {
+    text-align: center;
+    margin: 0 auto;
+    width: 800px;
+}
+
+hr {
+    width: 70%;
+}
+
+footer {
+    clear: right;
+    font-size: small;
+    color: white;
+}
+
+#div1{
+    float:left;
+}
+
+#div2 {
+    float:left;
+    margin-left: 50px;
+    text-align: left;
+    font-weight: bold;
+}
+
+#nameOfImage {
+    clear: left;
+    font-size: 2em;
+}
+
+#error {
+    clear: left;
+    font-size: 2em;
+    color: Red;
+}
+
+#imageContainer {
+    width: 1000px;
+    height: 1000px;
+    overflow: auto;
+    position: relative;
+}
+
+#img0
+{
+    position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#img1
+{
+    position: absolute;
+    top: 0px;
+    left: 500px;
+}
+
+#img2
+{
+    position: absolute;
+	top: 500px;
+	left: 0px;
+}
+
+#img3
+{
+    position: absolute;
+    top: 500px;
+    left: 500px;
+}
+
+#img4
+{
+    position: absolute;
+	top: 250px;
+	left: 250px;
+}
+
+#collageTitle {
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Monospace;
+}
+
+#submit {
+    color: black;
+    border-radius:20px;
+}
+
+table {
+    border: 3px solid black;
+}
+
+th {
+    border: 2px solid black;
+}
+
+td {
+    border: 2px solid black;
+    padding-left: 25px;
+    padding-right: 25px;
+}
