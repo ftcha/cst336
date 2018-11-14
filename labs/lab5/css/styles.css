@@ -1,0 +1,81 @@
+header {
+    font-size: 3em;
+    margin-bottom: 0px;
+    color: blue;
+}
+
+body {
+    background-color: white;
+    color: black;
+}
+
+header, footer {
+    text-align: center;
+    margin: 0 auto;
+    width: 800px;
+}
+
+#afterHeader {
+    width: 70%;
+}
+
+hr {
+    width: 100%;
+}
+
+footer {
+    clear: right;
+    font-size: small;
+}
+
+#search {
+    color: black;
+    font-size: 2em;
+    border-radius:20px;
+}
+
+table {
+    border: 3px solid black;
+    width: 100%;
+}
+
+th {
+    border: 2px solid black;
+    font-size: 2em;
+    color: Purple;
+}
+
+td {
+    border: 2px solid black;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    color: green;
+}
+
+a:hover {
+    border-bottom: 2px red solid;
+    font-size: 1.5em;
+    transition: .9s;
+}
+
+a {
+    text-decoration: none;
+    color: black; 
+}
+
+#found {
+    font-size: 2em;
+}
+
+form {
+    text-align: center;
+    margin: 0 auto;
+    width: 800px;
+}
