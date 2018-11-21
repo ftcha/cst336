@@ -74,6 +74,7 @@
 <HTML lang='en'>
     <head>
         <title>Update Product</title>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
     </head>
     <body>
         <form>
