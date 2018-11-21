@@ -32,6 +32,13 @@
     <head>
         <title> Admin Main Page </title>
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+        
+        <script>
+            function confirmDelete(){
+                return confirm("Are you sure you want to delete the product?");
+            }
+        </script>
+        
     </head>
     <body>
 
