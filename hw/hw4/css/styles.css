@@ -1,0 +1,45 @@
+header, footer {
+    text-align: center;
+    margin: 0 auto;
+    width: 800px;
+}
+
+#gameWindow {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    background: black;
+}
+#cat {
+    position: absolute;
+    width: 100px;
+    z-index: 2;
+}
+#dog {
+    position: absolute;
+    width: 90px;
+    z-index: 1;
+}
+
+.button {
+    color: white;
+    background-color: #FFAA00;
+    padding: 8px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: hand;
+    cursor: pointer;
+}
+
+#btnMoveAnimals {
+    position: absolute;
+    width: 60px;
+    z-index: 3;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
+}
